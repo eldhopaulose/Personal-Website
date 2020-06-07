@@ -1,0 +1,36 @@
+.head-top{
+width: 100%;
+}
+.icon-action:hover{
+    color: red;
+}
+.Main-Color{
+    color: blue;
+}
+.center{
+    align-items: center;
+    
+}
+#arrow-animations{
+    height: 60px;
+    animation-name:keys;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes keys {
+    0% {padding-top: 10px;}
+    50% {padding-top: 0px;}
+    100% {padding-top: 10px;}
+  }
+  .footer-under{
+      width: 100%;
+      height: 18em;
+  }
+  .footer-boder{
+      width: 100;
+      height: 1px;
+  }
+  .footer-about{
+      width: 100%;
+      height: 12em;
+  }
